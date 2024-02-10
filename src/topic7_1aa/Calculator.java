@@ -1,0 +1,28 @@
+package topic7_1aa;
+
+public class Calculator {
+	
+	public int add(int a, int b) {
+		return a + b;
+	}
+	
+	public int substract(int a, int b) {
+		return a - b;
+	}
+	
+	public int multiply(int a, int b) {
+		return a * b;
+	}
+	
+	public int divide(int a, int b) {
+		return a / b;
+	}
+
+	public static void main(String[] args) {
+		Calculator calc = new Calculator();
+		System.out.println("Adding 1 + 2 is " + calc.add(1, 2));
+		System.out.println("Substracting 2 from 1 is " + calc.substract(2, 1));
+		System.out.println("Multiplication of 10 and 2 is " + calc.multiply(10, 2));
+		System.out.println("Division of 10 by 2 is " + calc.divide(10, 2));
+	}
+}
